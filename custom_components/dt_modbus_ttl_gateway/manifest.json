@@ -1,0 +1,14 @@
+{
+  "domain": "dt_modbus_ttl_gateway",
+  "name": "DT Modbus USB / TTL Gateway",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/ajaydabas/dt_modbus_ttl_gateway",
+  "requirements": [
+    "pymodbus>=3.5.0"
+  ],
+  "codeowners": [
+    "@ajaydabas"
+  ],
+  "iot_class": "local_polling"
+}
